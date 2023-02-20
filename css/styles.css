@@ -272,8 +272,11 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
     color: #fff;
 
 }
-/* 
-contact me */
+
+/* #contact-me{
+    text-align: center;
+} */
+
 
 
 .contact .title::after{
@@ -370,4 +373,13 @@ contact me */
 .right form .button-area button:hover{
   color: crimson;
   background: none;
+}
+
+
+
+@media(max-width:1000px)
+{
+    .text_mid{
+        width: 100%;
+    }
 }
