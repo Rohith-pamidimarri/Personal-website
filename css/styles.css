@@ -62,7 +62,8 @@ body{
 
 a :hover{
 
- background-color:blue;
+    background: rgb(36,34,195);
+    background: linear-gradient(0deg, rgba(36,34,195,1) 0%, rgba(253,45,245,1) 100%);
 color:#fff;
 }
 
@@ -289,12 +290,14 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .contact .contact-content .left p{
     text-align: justify;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
+
 }
 .contact .contact-content .row{
     display: flex;
@@ -306,10 +309,12 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    /* color: crimson; */
+    color: linear-gradient(0deg, rgba(36,34,195,1) 0%, rgba(253,45,245,1) 100%);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .contact .contact-content .info .sub-title{
     color:white;
@@ -340,7 +345,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
@@ -366,20 +371,33 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: rgb(36,34,195);
+  background: linear-gradient(0deg, rgba(36,34,195,1) 0%, rgba(253,45,245,1) 100%);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: white;
   background: none;
 }
 
+.con-icon{
+    padding: 0.8%;
+    border-width: 2px;
+    border-radius: 100%;
+    background: rgb(36,34,195);
+    background: linear-gradient(0deg, rgba(36,34,195,1) 0%, rgba(253,45,245,1) 100%);
+    margin: 2%;
+}
 
 
 @media(max-width:1000px)
 {
     .text_mid{
         width: 100%;
+    }
+    .mid_box{
+        background-image: url("images/bg_2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
