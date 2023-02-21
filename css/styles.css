@@ -396,7 +396,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
         width: 100%;
     }
     .mid_box{
-        background-image: url("images/bg_2.jpg");
+        background-image: url("images/bg2.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
